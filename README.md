@@ -40,10 +40,8 @@ npm install -g homebridge-moode
 If you are installing directly from a GitHub repository:
 
 ```bash
-npm install -g github:USER/homebridge-moode
+npm install -g github:sterlopus/homebridge-moode
 ```
-
-Replace `USER` with the GitHub account or organization name.
 
 Restart Homebridge after installation.
 

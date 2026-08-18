@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "Homebridge accessory for controlling moOde/MPD as a HomeKit lightbulb with volume brightness.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterlopus/homebridge-moode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sterlopus/homebridge-moode/issues"
+  },
+  "homepage": "https://github.com/sterlopus/homebridge-moode#readme",
   "files": [
     "config.schema.json",
     "index.js",
