@@ -1,0 +1,50 @@
+{
+  "pluginAlias": "Moode",
+  "pluginType": "accessory",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "default": "moOde"
+      },
+      "host": {
+        "title": "MPD Host",
+        "type": "string",
+        "default": "192.168.2.180",
+        "required": true
+      },
+      "port": {
+        "title": "MPD Port",
+        "type": "integer",
+        "default": 6600,
+        "minimum": 1,
+        "maximum": 65535,
+        "required": true
+      },
+      "timeoutMs": {
+        "title": "Timeout",
+        "type": "integer",
+        "default": 3000,
+        "minimum": 500,
+        "maximum": 30000
+      },
+      "pollIntervalSeconds": {
+        "title": "Status Poll Interval",
+        "type": "integer",
+        "default": 30,
+        "minimum": 0,
+        "maximum": 3600
+      }
+    }
+  },
+  "form": [
+    "name",
+    "host",
+    "port",
+    "timeoutMs",
+    "pollIntervalSeconds"
+  ]
+}
